@@ -5,7 +5,7 @@ from django.shortcuts import render
 
 def index(request):
     context = {
-        'title': 'Test title',
+        'title': 'Main',
         'username': 'meirrr',
     }
     return render(request, './products/index.html', context)
